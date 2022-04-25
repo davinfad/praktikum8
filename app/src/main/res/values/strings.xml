@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Praktikum8</string>
+    <string name="add_buku">Tambah Buku</string>
+    <string name="RV_JudulBuku">Judul Buku</string>
+    <string name="penulis">Penulis</string>
+    <string name="empty_not_saved">Buku Tidak Tersimpan</string>
+</resources>

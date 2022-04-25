@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_tambah"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="68dp"
+    android:orientation="vertical"
+    android:padding="25dp">
+
+    <EditText
+        android:id="@+id/Bet_Judul"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_box"
+        android:hint="Judul Buku"
+        android:paddingLeft="15dp" />
+
+    <EditText
+        android:id="@+id/Bet_Penulis"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/input_box"
+        android:hint="Penulis Buku"
+        android:paddingLeft="15dp" />
+
+    <Button
+        android:id="@+id/Bbt_Simpan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/green"
+        android:text="Simpan"
+        android:textSize="18dp" />
+
+</LinearLayout>
